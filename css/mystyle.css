@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto&display=swap');
+/*  font-family: 'Racing Sans One', serif;
+    font-family: 'Roboto', sans-serif;       */
+
+body{
+	background-color:white;
+	
+}
+
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical;
+  color: rgb(81, 150, 166);
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+h1, h2 {
+	color:#00BEFF;
+	text-align:center;
+	font-family:Racing Sans One;
+}
+
+h2 {
+	text-align: left;
+}
+
+p {
+	font-family:Roboto;
+}
+
+ol, li {
+	font-family:Roboto;
+}
+.navbar {
+	background-color:#017D17;
+	color: white;
+}
+.jumbotron {
+	background-color:#A5FF81;
+}
+
+.container {
+	background-color:#EBFFFD;
+	padding:50px;
+	margin-top:50px;
+	}
+
+.div{
+	display: flex;
+	align-items: center;
+}	
+.btn{
+	background-color:#36FFA3;	
+}
+
+
